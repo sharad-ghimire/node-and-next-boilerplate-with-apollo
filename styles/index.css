@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "sf";
+  src: url("/fonts/sf.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sf-text";
+  src: url("/fonts/sf-text.ttf");
+  font-style: normal;
+}
+
+body {
+  font-family: "sf-text";
+}
